@@ -2,6 +2,5 @@
 
 int main(){
 
-one_time_pad("Andrew",10);
-
+number_of_1_bits_set(400);
 }
