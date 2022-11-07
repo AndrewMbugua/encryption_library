@@ -19,7 +19,7 @@ int value = text[i] ^ key;
 
 int main(){
 
-//one_time_pad("date",10);
+one_time_pad("date",10);
 
 
 }
