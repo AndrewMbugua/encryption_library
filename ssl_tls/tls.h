@@ -19,6 +19,8 @@ OPENSSL_init_ssl(0, NULL);
 #include <openssl/ssl.h>
 #include <openssl/opensslv.h>
 #include <openssl/err.h>
+#include <openssl/bio.h>
+
 
 #include <netdb.h>
 #include <sys/socket.h>
