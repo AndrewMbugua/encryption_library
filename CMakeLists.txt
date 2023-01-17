@@ -10,4 +10,4 @@ add_executable(encryption_library
         custom_crypto_lib.h
         main.c
         one_time_pad.c
-        randomness.c ssl_tls/tls.h ssl_tls/prf.c ssl_tls/encrypted_sockets.c base64_encode.c base64_encode.h ssl_tls/SHA256.c)
+        randomness.c ssl_tls/tls.h ssl_tls/prf.c ssl_tls/encrypted_sockets.c base64_encode.c base64_encode.h ssl_tls/SHA256.c ssl_tls/test.c)
