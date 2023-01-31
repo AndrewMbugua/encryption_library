@@ -112,6 +112,13 @@ build CMakeFiles/encryption_library.dir/ssl_tls/test.c.o: C_COMPILER__encryption
   OBJECT_DIR = CMakeFiles/encryption_library.dir
   OBJECT_FILE_DIR = CMakeFiles/encryption_library.dir/ssl_tls
 
+build CMakeFiles/encryption_library.dir/float_double_to_IEEE-754_format.c.o: C_COMPILER__encryption_library_Debug /home/andrew/Documents/encryption_library/float_double_to_IEEE-754_format.c || cmake_object_order_depends_target_encryption_library
+  DEP_FILE = CMakeFiles/encryption_library.dir/float_double_to_IEEE-754_format.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/andrew/Documents/encryption_library/.
+  OBJECT_DIR = CMakeFiles/encryption_library.dir
+  OBJECT_FILE_DIR = CMakeFiles/encryption_library.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target encryption_library
@@ -120,7 +127,7 @@ build CMakeFiles/encryption_library.dir/ssl_tls/test.c.o: C_COMPILER__encryption
 #############################################
 # Link the executable encryption_library
 
-build encryption_library: C_EXECUTABLE_LINKER__encryption_library_Debug CMakeFiles/encryption_library.dir/1-bit-counter.c.o CMakeFiles/encryption_library.dir/main.c.o CMakeFiles/encryption_library.dir/one_time_pad.c.o CMakeFiles/encryption_library.dir/randomness.c.o CMakeFiles/encryption_library.dir/ssl_tls/prf.c.o CMakeFiles/encryption_library.dir/ssl_tls/encrypted_sockets.c.o CMakeFiles/encryption_library.dir/base64_encode.c.o CMakeFiles/encryption_library.dir/ssl_tls/SHA256.c.o CMakeFiles/encryption_library.dir/ssl_tls/test.c.o
+build encryption_library: C_EXECUTABLE_LINKER__encryption_library_Debug CMakeFiles/encryption_library.dir/1-bit-counter.c.o CMakeFiles/encryption_library.dir/main.c.o CMakeFiles/encryption_library.dir/one_time_pad.c.o CMakeFiles/encryption_library.dir/randomness.c.o CMakeFiles/encryption_library.dir/ssl_tls/prf.c.o CMakeFiles/encryption_library.dir/ssl_tls/encrypted_sockets.c.o CMakeFiles/encryption_library.dir/base64_encode.c.o CMakeFiles/encryption_library.dir/ssl_tls/SHA256.c.o CMakeFiles/encryption_library.dir/ssl_tls/test.c.o CMakeFiles/encryption_library.dir/float_double_to_IEEE-754_format.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/encryption_library.dir
   POST_BUILD = :
