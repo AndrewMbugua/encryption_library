@@ -2,8 +2,8 @@
 // Created by andrew mbugua on 1/31/23.
 //
 
-/*< This code encodes floats & double into IEEE-754 format,it doesnt encode NaN or Infinity
- * Source  */
+/*< This code encodes floats & double into IEEE-754 format,it doesn't encode NaN or Infinity
+ * Source -Beej's Guide to Network Programming */
 
 #include <stdint.h>
 #include <stdio.h>
