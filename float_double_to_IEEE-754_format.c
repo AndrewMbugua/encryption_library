@@ -3,7 +3,9 @@
 //
 
 /*< This code encodes floats & double into IEEE-754 format,it doesn't encode NaN or Infinity
- * Source -Beej's Guide to Network Programming */
+ * Source - Beej's Guide to Network Programming
+ * The IEEE-754 standard describes floating-point formats, a way to represent real numbers in hardware
+ */
 
 #include <stdint.h>
 #include <stdio.h>
