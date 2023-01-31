@@ -94,6 +94,7 @@ int main(){
     printf("double before : %.20lf\n", d);
     printf("double encoded: 0x%016" PRIx64 "\n", di);
     printf("double after : %.20lf\n", d2);
+    
 
 
     return 0;
