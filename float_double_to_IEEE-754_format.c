@@ -7,6 +7,8 @@
 #include <stdlib.h>
 #include <stdint-gcc.h>
 #include <stdio.h>
+#include <inttypes.h> /*< For the PRIX data types*/
+
 
 #define pack754_32(f) (pack754((f), 32, 8))
 #define pack754_64(f) (pack754((f), 64, 11))
