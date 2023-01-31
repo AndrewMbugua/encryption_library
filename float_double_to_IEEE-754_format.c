@@ -3,7 +3,7 @@
 //
 
 /*< This code encodes floats & double into IEEE-754 format,it doesnt encode NaN or Infinity
- * Source BGNET */
+ * Source  */
 
 #include <stdint.h>
 #include <stdio.h>
