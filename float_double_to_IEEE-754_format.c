@@ -97,8 +97,6 @@ int main(){
     printf("double after : %.20lf\n", d2);
 
 
-
     return 0;
-
-
+    
 }
