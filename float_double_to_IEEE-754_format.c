@@ -4,8 +4,7 @@
 
 /*< This code encodes floats & double into IEEE-754 format,it doesnt encode NaN or Infinity */
 
-#include <stdlib.h>
-#include <stdint-gcc.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <inttypes.h> /*< For the PRIX data types*/
 
